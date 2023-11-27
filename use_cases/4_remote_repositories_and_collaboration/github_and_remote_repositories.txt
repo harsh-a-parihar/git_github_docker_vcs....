@@ -1,0 +1,34 @@
+-----------------------------------------Github_Remote_Repositories_Commands------------------------------------------------------
+
+
+1. `<git remote add {origin_of_file} {url_of_remote_repository}>`
+    --> Adds the remote repository created on the web.
+
+
+2. `<git push -u {origin_of_file} {branch_name}>`
+    --> Pushes changes from local to remote repository.
+
+3. `<git push {origin_of_file} --d {branch_name}>`
+    --> Deletes a branch in your remote repository.
+
+
+4. `<git clone {url_of_remote_repository}>`
+    --> Clones a repository from a GitHub URL.
+
+    3.1. `<npm install>`
+        --> Installs all npm modules.
+
+    3.2. `<follow instructions given...>`
+        --> Proceed with the instructions.
+
+
+5. `<git pull>`
+    --> Fetches changes from a remote repository and merges them into the current branch.
+
+
+6. `<git remote -v>`
+    --> Lists all remote repositories.
+
+
+
+*Note: Please review and customize the content as needed based on your specific notes.*

@@ -1,0 +1,32 @@
+--------------------------------------Git Repository Initialization and Configuration---------------------------------------------
+
+
+1. `<git init>`
+   --> Initializes or creates a Git repository.
+
+
+2. `<git config>`
+   --> Configures Git settings.
+
+
+--------------------------------------Working with Files and Directories----------------------------------------------------------
+
+
+1. `<touch {file_name}>`
+   --> Creates a new file.
+
+
+2. `<mv {old_file_name} {new_file_name}>`
+   --> Moves or renames a file, directory, or symlink.
+
+
+3. `<rm {file\dir_name}>`
+   --> Removes a file/dir from the working directory.
+
+
+4. `<rm -rf {file\dir_name}>`
+   --> Removes a file/dir by force from the working directory.
+
+
+
+*Note: Please review and customize the content as needed based on your specific notes.*

@@ -1,0 +1,17 @@
+--------------------------------------------Comparing_and_Reverting_changes-------------------------------------------------------
+
+
+1. `<git diff {file_name}>`
+    --> Checks the difference between the previous and modified versions of a file.
+
+
+2. `<git checkout {file_name}>`
+    --> Rolls back or restores a previous version of a file.
+
+
+3. `<git checkout {specified_commit}>`
+    --> Goes to the specified commit state of a directory or file.
+
+
+
+*Note: Please review and customize the content as needed based on your specific notes.*

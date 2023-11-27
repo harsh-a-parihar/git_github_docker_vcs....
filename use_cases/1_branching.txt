@@ -1,0 +1,21 @@
+-------------------------------------------------------Branching------------------------------------------------------------------
+
+
+1. `<git branch>`
+    --> Shows all branches in the Git repository.
+
+
+2. `<git branch -r>`
+    --> Lists all remote branches.
+
+
+3. `<git checkout {switching_branch_name}>`
+    --> Switches from one branch to a specified branch.
+
+
+4. `<git checkout -b {new_branch_name}>`
+    --> Creates a new branch and switches to it.
+
+
+
+*Note: Please review and customize the content as needed based on your specific notes.*

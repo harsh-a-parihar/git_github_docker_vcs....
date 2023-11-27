@@ -1,0 +1,29 @@
+--------------------------------------------Staging_and_Committing-----------------------------------------------------------------
+
+
+1. `<git status>`
+    --> Shows the status of changes in the working area.
+
+
+2. `<git add {file_name}>`
+    --> Adds a file's contents to the staging area.
+
+
+3. - `<git add .>`
+    --> Adds everything to the staging area in one go.
+
+
+4. `<git commit -m "{commit_message}">`
+    --> Commits changes to the Git repository.
+
+
+5. `<git log>`
+    --> Displays the commit history.
+
+
+6. `<git commit --amend>`
+    --> Modify the most recent commit instead of creating new commit to edit anything.
+
+
+
+*Note: Please review and customize the content as needed based on your specific notes.*

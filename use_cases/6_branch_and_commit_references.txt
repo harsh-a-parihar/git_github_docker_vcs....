@@ -1,0 +1,26 @@
+----------------------------------------------Branch_and_Commit_References.txt-----------------------------------------------------
+
+
+1. `<HEAD>`
+    --> Pointer pointing to the latest commit in the recently switched/checked-out branch.
+
+
+2. `<Detached HEAD>`
+    --> When you check out a commit rather than a branch. It automatically points to that commit instead of a branch. Changes made in this state won't belong to any branch until you create a new branch or check out an existing branch.
+
+
+3. `<BASE>`
+    --> Common ancestor from which source and target branch originate. Used in merging, automatic merging, merging conflicts, and manual merging.
+
+
+4. `<Relative refs>`
+    - `<git checkout {HEAD^/HEAD~(num)}>`
+    --> Move from parent commit to any commits before them.
+
+
+5. `<git branch -f {specified_branch} {HEAD~(num)}>`
+    --> Moves (by force) the specified branch to the num parents behind HEAD.
+
+
+
+*Note: Please review and customize the content as needed based on your specific notes.*

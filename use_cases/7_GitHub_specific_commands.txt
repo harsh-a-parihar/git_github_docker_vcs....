@@ -1,0 +1,13 @@
+------------------------------------------------GitHub_Specific_Commands----------------------------------------------------------
+
+
+1. `<Fork>`
+    --> Copying another person's entire codebase to your GitHub and cloning it to modify. The original codebase does not change until the pull request is approved.
+
+
+2. `<Pull>`
+    --> Combining a forked branch with the main branch or codebase after particular modifications.
+
+
+
+*Note: Please review and customize the content as needed based on your specific notes.*

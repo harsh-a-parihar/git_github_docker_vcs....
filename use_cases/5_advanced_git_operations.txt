@@ -1,0 +1,47 @@
+----------------------------------------------------Advanced_Git_Operations-------------------------------------------------------
+
+
+1. `<git rm --cached -r {file_name}>`
+    --> Removes a file from the staging area.
+
+
+2. `<git rm --cached -r .>`
+    --> Removes every file in the working folder from the staging area.
+
+
+3. `<touch .gitignore>`
+    --> File to specify files to be ignored while committing or moving to the staging area.
+
+
+4. `<git merge {branch_name_you_want_to_merge}>`
+    --> Merges another branch into the main branch.
+
+    4.1. `<:q!>`
+        --> To exit the Vim editor.
+
+    4.2. `<git push {origin_of_file} {branch_name} -u>`
+        --> After the merge, push to the remote repository.
+
+
+5. `<git rebase {branch_name_you_want_to_copy_to}>`
+    --> Similar to merge but uses a simple copy and paste. Creates a clean network.
+
+
+6. `<git reset --hard {commit_name}>`
+    --> Resets all commits or the working directory until the specified commit (now it becomes HEAD).
+
+
+7. `<git fetch>`
+    --> Fetches changes from a remote repository without merging.
+
+
+8. `<git submodule add {repository_url}>`
+    --> Adds a submodule to the repository.
+
+
+9. `<git submodule update --init --recursive>`
+    --> Initializes and updates all submodules in the repository.
+
+
+
+*Note: Please review and customize the content as needed based on your specific notes.*
