@@ -10,7 +10,7 @@
 
 
 3. `<git checkout {switching_branch_name}>`
-    --> Switches from one branch to a specified branch.
+    --> Switches from one branch to a specified branch. You can use 'switch' instead of 'checkout', it works too.
 
 
 4. `<git checkout -b {new_branch_name}>`

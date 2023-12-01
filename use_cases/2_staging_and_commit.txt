@@ -9,7 +9,7 @@
     --> Adds a file's contents to the staging area.
 
 
-3. - `<git add .>`
+3. `<git add .>`
     --> Adds everything to the staging area in one go.
 
 

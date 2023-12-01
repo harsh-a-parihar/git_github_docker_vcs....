@@ -15,10 +15,10 @@
 4. `<git clone {url_of_remote_repository}>`
     --> Clones a repository from a GitHub URL.
 
-    3.1. `<npm install>`
+    4.1. `<npm install>`
         --> Installs all npm modules.
 
-    3.2. `<follow instructions given...>`
+    4.2. `<follow instructions given...>`
         --> Proceed with the instructions.
 
 
