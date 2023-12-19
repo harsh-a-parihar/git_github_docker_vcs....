@@ -1,4 +1,4 @@
-# Git and GitHub VCS
+# **Git and GitHub VCS**
 
 This repository serves as a quick reference for essential Git and GitHub commands and Version Control System, organized for ease of use. 🚀
 
@@ -78,3 +78,10 @@ Before diving in, ensure you have the following pre-requisites:
 Contributions are welcome! Open an issue or submit a pull request to add commands, suggest improvements, or report errors. Let's build a valuable resource for the developer community.
 
 Let's learn, collaborate, and make the world of version control more accessible together! 🌐
+
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This work is published under the [MIT](https://github.com/harsh-a-parihar/Git_and_Github_VCS/blob/main/LICENSE) License.
