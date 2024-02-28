@@ -22,8 +22,11 @@
 
 
 6. `<git commit --amend>`
-    --> Modify the most recent commit instead of creating new commit to edit anything.
+    --> Modify the most recent commit instead of creating a new commit to edit anything.
 
+
+7. `<git log --oneline>`
+    --> Displays the commit history in one line.
 
 
 *Note: Please review and customize the content as needed based on your specific notes.*
