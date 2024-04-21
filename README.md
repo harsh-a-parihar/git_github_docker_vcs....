@@ -1,4 +1,4 @@
-# **Git and GitHub VCS**
+# **Git & GitHub, Docker, VCS...**
 
 This repository serves as a quick reference for essential Git and GitHub commands and Version Control System, organized for ease of use. 🚀
 
