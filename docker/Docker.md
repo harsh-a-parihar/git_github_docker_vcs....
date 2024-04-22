@@ -124,6 +124,14 @@
         eg. docker run -d --name mywebcontainer nginx
     ```
 
+    To verify any application image has os and application both:
+
+    ```
+    -> login into the container.
+    -> run the command: cat /etc/os-release (to check os)
+    -> run the command: <application_name> -v (to check application)
+    ```
+
     If we want to logout from the container: ```ctrl + p, ctrl + q```
 
     </br>
