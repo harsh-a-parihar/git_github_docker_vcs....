@@ -175,3 +175,12 @@
     ```
     docker rename <old_container_name> <new_container_name>
     ```
+
+    To delete all the images, stopped containers, build cache, and networks:
+
+    ```
+    docker system prune -fa
+
+    or
+
+    docker system prune
