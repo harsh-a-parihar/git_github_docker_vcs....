@@ -1,11 +1,11 @@
 # **Git & GitHub, Docker, VCS...**
 
-This repository serves as a quick reference for essential Git and GitHub commands and Version Control System, organized for ease of use. 🚀
+This repository serves as a quick reference for essential Git, GitHub, Docker commands and Version Control System, organized for ease of use. 🚀
 
 ## Overview
 
-Welcome to the Git and GitHub Commands repository — a comprehensive guide of ***Important Git and GitHub commands and concepts*** for developers at any stage of their development journey.
-Here, you'll find a curated collection of commands carefully structured for ease of use, covering everything from fundamental Git basics to advanced GitHub collaboration strategies. This repository is your go-to resource.
+Welcome to the Git and GitHub Commands repository — a comprehensive guide of ***Important Git and GitHub commands, Docker componenets, commands and concepts*** for developers at any stage of their development journey.
+Here, you'll find a curated collection of commands carefully structured for ease of use, covering everything from fundamental Git basics to advanced GitHub collaboration strategies and Docker DevOps concepts. This repository is your go-to resource.
 
 
 ## Pre-requisites and Installation
