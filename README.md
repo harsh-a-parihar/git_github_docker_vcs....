@@ -22,23 +22,34 @@ Before diving in, ensure you have the following pre-requisites:
         For Linux
 
         ```
-        > sudo apt-key adv-keyserver keyserver.ubuntu.com-recv-key C99B11DEB97541F0
-        > sudo apt-add-repository -u https://cli.github.com/packages
-        > sudo apt install gh
+        sudo apt-add-repository -u https://cli.github.com/packages
+        sudo apt install gh
         ```
 
         For Windows
 
         ```
-        > winget install gh
+        winget install gh
         ```
 
-        Without personal access token, now just type:
+        Login to your github account using github-cli:
 
         ```
-        > gh auth login
+        gh auth login
         ```
-        And follow the instructions and eventually it'll show a code(copy it), press enter, paste the code and complete the authorizations.
+
+        Login using browser: 
+
+        ```
+        gh auth login --web
+        ```
+
+        Login using token:
+
+        ```
+        gh auth login --with-token <your personal token>
+        ```
+
     3. **Using github-token:** Go to your GitHub account, Profile_image>Settings>Developer_Settings>Personal_access_tokens now click 'Generate token' button. 
 
         Enter your name, select permissions you need, and Generate token.
@@ -48,19 +59,13 @@ Before diving in, ensure you have the following pre-requisites:
         Configure Git the token. Type the below command in terminal/perworshell to set token as credential helper for github:
 
         ```
-        > git config --global credential.helper store
+        git config --global credential.helper store
         ```
         
         Now you are ready to `clone` and `push` your local repository, just set the remote URL of the repository with your <username> and token:
 
         ```
-        > git remote set-url origin https://<username>:<token>@github.com/<username>/<repository>.git
-        ```
-
-        Or
-
-        ```
-        > gh auth login --with-token <your_personal_access_token>
+        git remote set-url origin https://<username>:<token>@github.com/<username>/<repository>.git
         ```
 
 5. **Code Editor Integration:** If you haven't already, integrate your preferred code editor with GitHub. Most editors, such as Visual Studio Code, offer seamless GitHub integration.

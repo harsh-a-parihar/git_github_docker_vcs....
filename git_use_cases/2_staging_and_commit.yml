@@ -17,12 +17,13 @@
     --> Commits changes to the Git repository.
 
 
-5. `<git log>`
-    --> Displays the commit history.
-
-
-6. `<git commit --amend>`
+5. `<git commit --amend>
+    <git commit --am "{commit_message}"`
     --> Modify the most recent commit instead of creating a new commit to edit anything.
+
+
+6. `<git log>`
+    --> Displays the commit history.
 
 
 7. `<git log --oneline>`

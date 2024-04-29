@@ -15,12 +15,6 @@
 4. `<git clone {url_of_remote_repository}>`
     --> Clones a repository from a GitHub URL.
 
-    4.1. `<npm install>`
-        --> Installs all npm modules.
-
-    4.2. `<follow instructions given...>`
-        --> Proceed with the instructions.
-
 
 5. `<git pull>`
     --> Fetches changes from a remote repository and merges them into the current branch.
@@ -29,6 +23,21 @@
 6. `<git remote -v>`
     --> Lists all remote repositories.
 
+
+7. `<git remote show origin>`
+    --> view remote repo.
+
+
+8. `<git remote rm origin>`
+    --> remove remote repo.
+
+
+9. `<git pull origin {branch_name}>`
+    --> pull remote branch.
+
+
+10. `<git remote -r>`
+    --> view all remote branch.
 
 
 *Note: Please review and customize the content as needed based on your specific notes.*

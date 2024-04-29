@@ -43,5 +43,12 @@
     --> Initializes and updates all submodules in the repository.
 
 
+10. `<git mergetool>`
+    --> used for merge conflicts
+
+    10.1. `modify and press esc + :wqa`
+    10.2. `git clean -f`
+    10.3. `git merge --continue`
+
 
 *Note: Please review and customize the content as needed based on your specific notes.*

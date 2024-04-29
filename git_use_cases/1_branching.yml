@@ -17,5 +17,16 @@
     --> Creates a new branch and switches to it.
 
 
+5. `<git branch --d {branch_name}>`
+    --> Deletes the local branch.
+
+
+6. `<git push origin --d {remote_branch_name}>`
+    --> Deletes the remote branch.
+
+
+7. `<git branch -m {branch_name}>`
+    --> Renames the branch.
+
 
 *Note: Please review and customize the content as needed based on your specific notes.*
