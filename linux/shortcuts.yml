@@ -1,0 +1,29 @@
+
+1. `ctrl + alt + t` - Open terminal
+
+2. `ctrl + l` - Lock screen
+
+3. `ctrl + a` - start of the line terminal
+
+4. `ctrl + e` - end of the line terminal
+
+5. `ctrl + shift + c` - copy in terminal
+
+6. `ctrl + shift + v` - paste in terminal
+
+7. `ctrl + l` - clear the terminal page
+
+9. `ctrl + u` - deletes everything BEFORE your cursor
+
+10. `ctrl + y` - pastes deleted content
+
+11. `ctrl + k` - deletes everything AFTER your cursor
+
+12. `alt + back` - deletes the  last word in the line
+
+13. `!!` - runs the most last command that ran 
+
+14. `tab tab` - shows command options (tab - autocompletes command)
+
+15. `ctrl + r` - search any command used
+
