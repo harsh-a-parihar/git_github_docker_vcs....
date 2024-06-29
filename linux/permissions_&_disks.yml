@@ -1,0 +1,17 @@
+
+### Permissions --------------------
+
+1. `ls -l` - check Permissions
+
+2. `chmod o+(r/w/x) file_name` - change permissions of file
+
+3. `chmod ugo-rwx(code=777) file_name` - take all permissions away from everyone(users, groups, others)
+
+4. `chmod ug+rw,o-x(code=661) filename` - adding read&write to users and groups and revoking execute from others
+
+5. `chown newowner:newgroup filename` - change the owner of the file
+
+
+
+1. `df -Th /` --> check the filesystem type of the root partition
+

@@ -24,6 +24,42 @@
 
 13. 'alias' - make any command
 
+14. `du -sh f*/fi*l/f*l*name` - search files
+
+15. `sudo find .s/usr -name (file or dir name)` - search for file and dir (for specificly - -type file(f) and dir(d))
+
+16. `dpkg --list | grep (package_name) and rpm -qa | grep (package_name)` - find the package_name
+
+17. `ps aux | less` - process with infos
+
+18. `sed -e s:(char u want change):(char to change) file_name` - change chars first appeares in files
+
+19. `sed -e s/(char u want change)/(char to change)/g file_name` - change chars everywhere in files
+      
+      - `scp -r local_file remote-host-ip:/tmp` - copy files from on host to another
+      
+20. `sort file_name` - sort lines of file
+
+21. `uniq -c file_name` - removes same lines in file (-c > counts)
+
+22. `sort -u file_name` - sort and uniq
+
+23. `join file1 file2` - joins file1 and file2, required 1 col is same
+
+24. `grep [pattern] filename` - searching for pattern
+    i. `grep -i/-c/-n/-w(whole word)/-o(only matched str)/-v(not matched lines) "search anything" file_name` - searching the file
+    ii. `grep -l "pattern" * or files` - search files contain "pattern"
+    iii. `grep -iR [pattern] [directory]` - search pattern in dir recursively
+
+25. `rsync local-file user@remote-host:remote-file` - syncs the files in the remote-host
+
+26. `rsync -avhe` ssh local_dir/file user@remote-host:/tmp - sync local dir on remote host using ssh
+        - `--chown=USER:GROUP` - with particular permission
+        - `--ignore-existing` - ignore the files that already exists
+        - `--progress --update` - shows progress during the transfer and update flag is to update remote dir for most recent update in local_dir/file
+        - `--remove-source-files` - auto deletes source files on local host after seccessful transferring
+        - `--delete` - delete the files on remote-host that are deleted in localhost
+        
 ### `pipes(|)` - used to combine multiple commands
 
 ### `su` - used to switch user > password > root > configure user(any) > give permission to user > exit/reboot
