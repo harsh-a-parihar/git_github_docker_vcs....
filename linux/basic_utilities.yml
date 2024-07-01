@@ -71,4 +71,23 @@
 
 ### `sudo shutdown -h|-r|-k now` - used to shutdown, restart, or send a message to all users
 
+### `cat /etc/os-release` - check about os
+
+### `passwd` - change password
+
+### `sudo adduser user_name` - add new user
+### `sudo usermod new_username old_username` - change username (use sudo or as root)
+
+### `cat /etc/passwd` - list of all users
+### `cat /etc/shadow` - list of all users pass credentials
+
+
+# Networking -----------------------------------------
+
+### 'ifconfig' and `ip addr show` - shows all the networks
+### 'iwconfig' - shows all the wireless networks
+
+### 'arp -a' - shows all the ips
+### 'netstat -ano' - shows all the activities and communications taking place
+### 'route' - shows the route table
 

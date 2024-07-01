@@ -13,5 +13,6 @@
 
 
 
-1. `df -Th /` --> check the filesystem type of the root partition
+### Disks and Partitions ------------------
 
+1. `df -Th /` - check the filesystem type of the root partition
