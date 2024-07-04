@@ -91,3 +91,6 @@
 ### 'netstat -ano' - shows all the activities and communications taking place
 ### 'route' - shows the route table
 
+### add user to sudoers - `sudo visudo`
+###                         at bottom write `username ALL=(ALL:ALL) ALL` and save & exit
+###                         check `groups username`

@@ -1,0 +1,94 @@
+1. "vimtutor": 'vim tutorial / notes'
+
+2. "vim ~/.vimrc": 'to change the configurations'
+
+3. "Normal(default)": 'command line mode'
+
+4. "Insert(i/I)": 'insert mode'
+
+5. "Visual(v/V)": 'visual mode, selete text or any lines'
+
+6. "Replace(r/R)": 'replace mode, (r -> replace a letter) / (R -> replace a line/text)'
+
+7. "esc": 'to exit any mode'
+
+8, "Yank(y/Y)": 'copies the word / line'
+
+9. "Paste(p/P)": 'pastes the word / line'
+
+
+### window splitting
+1. "ctrl+ws": 'split horizontally'
+2. "ctrl+wv": 'split vartically'
+3. "ctrl+wc": 'close window or :close'
+4. "ctrl+w<direction>": 'move window'
+
+
+### Commands 
+
+1. ":w": 'save file'
+2. ":w <filepath>": 'save path'
+3. ":wa": 'save all files'
+4. ":q": 'quit'
+5. ":q!": 'quit without saving'
+6. ":qa": 'quit all'
+7. ":wq": 'save and quit'
+8. "Z": "quit file"
+
+
+### Motion Commands
+
+1. "20g": 'go to line 20'
+2. "w": 'go to start of next-word'
+3. "dw": 'delete the current word'
+4. "c2w": 'change two words'
+5. "c and d": 'change and delete'
+6. "<": 'shift left'
+7. ">": 'shift right'
+8. "5d": 'deletes cursur to fifth word'
+9. "dd": 'deletes a whole line'
+10. "x": 'deletes single chars'
+
+
+### Directional commands
+
+1. "h": 'left'
+2. "j": 'down'
+3. "k": 'up'
+4. "l": 'right'
+eg. "2h": '2 char left'
+
+
+### goto commands
+1. "gg": 'go to first line'
+2. "G": 'go to last line'
+3. "10gg/10G": 'go to line 10'
+4. "w": 'start of next word'
+5. "e": 'end of word'
+6. "b": 'start of the last word'
+7. "J": 'join bottom lines (10J -> joins 10 bottom lines)'
+
+### start and end of line
+1. "^": start of a line
+2. "$": end of a line
+3. "u": undo (U -> undo a line)
+4. "ctrl + r": 'redo'
+
+
+### insert things
+1. "i": 'left of cursur'
+2. 'I': 'left of line'
+3. 'a': 'right of cursur'
+4. "A": 'right of line'
+5. "o and O": 'add a line below and add a line above'
+
+### find command
+1. '/<word>': 'search forward of cursur'
+2. '?<word>': 'search backward of cursur'
+3. 'n/N': 'next match / previous match'
+
+### replace command
+1. :(line nos.)s/<replacable word>/<replacing word>/i(case) or g(all): 'replace words'
+
+### leader key
+1. '\': 'leader key'
