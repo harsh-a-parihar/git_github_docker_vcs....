@@ -1,0 +1,9 @@
+1. sudo apt-get install git-lfs
+
+2. `git lfs install` - initiate lfs
+
+3. `git lfs track "large_file" - track large file`
+
+4. 'git add .gitattributes large_file' - add file
+
+5. commit and push
